@@ -7,7 +7,7 @@ async function buscar() {
         let pokemonNumber = parseInt(input);
         let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNumber}`);
         if (!response.ok) {
-            throw new Error('No se pudo obtener el Pokémon');
+            throw new Error('Logró obtener el Pokemon');
         }
         let data = await response.json();
         let pokemonName = data.name;
@@ -21,7 +21,7 @@ async function buscar() {
     } catch (error) {
         console.error('Error:', error);
         result.innerHTML = `<div class="pokemon">
-                                <h1>Error al cargar el Pokémon</h1>
+                                <h1>¡¡¡No existe!!!</h1>
                             </div>`;
     }
 }
