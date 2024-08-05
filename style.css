@@ -5,7 +5,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #575757;
+    background-color: #df830b;
+    background-image: url(https://wallpapercave.com/wp/wp3961350.jpg);
+    image-resolution: 200;
 }
 .container {
     text-align: center;
@@ -13,9 +15,9 @@ body {
 
 .box {
     max-width: 90%;
-    background-color: gray;
+    background-color: rgb(156, 76, 76);
     color: white;
-    border: 2px solid #333;
+    border: 2px solid #dd0a0a;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     padding: 20px;
@@ -27,7 +29,7 @@ body {
 }
 
 .box:hover {
-    transform: scale(1.05); 
+    transform: scale(1.1); 
 }
 
 .content {
@@ -40,7 +42,7 @@ body {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(10, 151, 85);
     width: 80%;
 }
 
@@ -57,7 +59,7 @@ body {
 
 .fetch-title {
     color: rgb(255, 255, 255); 
-    background-color: #000000;
+    background-color: #6d3908;
     padding: 10px;
     border-radius: 50px;
     width: fit-content;
